@@ -89,16 +89,28 @@ header{
 span{
   color: red;
 }
-.About{
-  align-items: center;
-  text-align: center;
-  background-color: red;
-  padding: 20px;
-  margin: 20px 0;
+.About {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+    background: red;
 }
-.about1 p{
-  color: white;
+
+.about1 {
+    max-width: 600px;   /* keeps content in the center */
+    margin: 20px auto;  /* removes the long bottom space */
+    padding: 20px;
 }
+
+.about1 h2 {
+    margin-bottom: 10px;
+}
+
+.about1 p {
+    color: white;
+    margin: 0;
+}
+
 
 .service-container{
   display: flex;
@@ -182,6 +194,7 @@ footer{
 section{
   min-height: 100vh;
 }
+
 
 
 
