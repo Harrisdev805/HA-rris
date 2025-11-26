@@ -33,7 +33,9 @@ header{
 }
 
 .main img{
-  width: 400px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 0 50px red;
 }
@@ -173,5 +175,6 @@ footer{
 section{
   min-height: 100vh;
 }
+
 
 
